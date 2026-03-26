@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ニコノビ - サポート・マーケティング</title>
+    <title>ニコノビ - サポート</title>
     <style>
       * {
         box-sizing: border-box;
@@ -39,12 +39,33 @@
       a:hover {
         text-decoration: underline;
       }
-      .url-block {
+      .card {
         background: #f8f9fa;
         border-radius: 8px;
         padding: 1rem 1.25rem;
         margin-top: 0.5rem;
+      }
+      .card p:last-child {
+        margin-bottom: 0;
+      }
+      .email {
+        font-size: 1.05rem;
+        font-weight: 600;
         word-break: break-all;
+      }
+      .faq-item {
+        margin-bottom: 1.25rem;
+      }
+      .faq-item h3 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0 0 0.35rem;
+        color: #333;
+      }
+      .faq-item p {
+        margin: 0;
+        color: #444;
+        font-size: 0.95rem;
       }
       .links {
         margin-top: 1.5rem;
@@ -53,7 +74,6 @@
         gap: 1rem;
       }
       .links a {
-        color: #007aff;
         font-size: 0.95rem;
       }
       footer {
@@ -65,19 +85,57 @@
   </head>
   <body>
     <h1>ニコノビ</h1>
+    <p class="subtitle">続けやすい毎日の習慣日記（カレンダーアプリ）</p>
 
-    <h2>サポートURL・マーケティングURL</h2>
+    <h2>お問い合わせ</h2>
+    <p>
+      不具合・ご質問・ご要望は、下記のメールアドレスまでお送りください。内容を確認のうえ、順次返信いたします。
+    </p>
+    <div class="card">
+      <p><strong>メールアドレス（お問い合わせ先）</strong></p>
+      <!-- App Store 提出前に、運営用の実メールアドレスへ差し替えてください -->
+      <p class="email">
+        <a href="mailto:support@example.com">support@example.com</a>
+      </p>
+      <p style="margin-top: 0.75rem; font-size: 0.875rem; color: #666">
+        ※返信まで数日かかる場合があります。アプリのバージョンとご利用端末（機種・OS
+        バージョン）を記載いただくと調査がスムーズです。
+      </p>
+    </div>
 
-    <div class="url-block">
-      <a href="https://miryowasuke.github.io/niconabi-pages/"
-        >https://miryowasuke.github.io/niconabi-pages/</a
-      >
+    <h2>よくある質問（FAQ）</h2>
+    <div class="faq-item">
+      <h3>Q. データはどこに保存されますか？</h3>
+      <p>
+        主にお使いのデバイス内に保存されます。詳細は
+        <a href="privacy.html">プライバシーポリシー</a>をご確認ください。
+      </p>
+    </div>
+    <div class="faq-item">
+      <h3>Q. 広告をオフにできますか？</h3>
+      <p>
+        無料版では広告を表示する場合があります。表示内容や設定はアプリ・端末の仕様により異なります。
+      </p>
+    </div>
+    <div class="faq-item">
+      <h3>Q. 不具合を報告したいです</h3>
+      <p>
+        上記メールに、発生状況（いつ・どの画面で）と端末情報を添えてお知らせください。
+      </p>
     </div>
 
     <h2>リンク</h2>
     <div class="links">
       <a href="privacy.html">プライバシーポリシー</a>
       <a href="terms.html">利用規約</a>
+    </div>
+
+    <h2>サポートURL・マーケティングURL</h2>
+    <p>App Store Connect 等でご登録の際は、次のURLをご利用ください。</p>
+    <div class="card">
+      <a href="https://miryowasuke.github.io/niconabi-pages/"
+        >https://miryowasuke.github.io/niconabi-pages/</a
+      >
     </div>
 
     <footer>
