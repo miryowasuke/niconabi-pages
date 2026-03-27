@@ -1,5 +1,1 @@
-# app-ads.txt for ニコノビ (niconobi)
-# AdMob: https://admob.google.com
-# See: https://support.google.com/admob/answer/9363762
-
 google.com, pub-2706481980592281, DIRECT, f08c47fec0942fa0
